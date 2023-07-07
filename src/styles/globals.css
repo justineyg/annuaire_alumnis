@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
 @font-face {
-    font-family: 'Oree';
-    src: url('../asset/Oree/Oree-Bold.ttf');
-    src: url('../asset/Oree/Oree-Italic.ttf');
-    src: url('../asset/Oree/Oree-Regular.ttf');
-    font-style: normal;
-    font-weight: 400;
+  font-family: "Oree";
+  src: url('/public/fonts/Oree/Oree-Bold.ttf');
+  src: url('/public/fonts/Oree/Oree-Italic.ttf');
+  src: url('/public/fonts/Oree/Oree-Regular.ttf');
+  font-weight: bold;
+  font-style: normal;
 }
 
 :root {

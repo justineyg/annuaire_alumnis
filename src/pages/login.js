@@ -4,8 +4,6 @@ import styled from "styled-components";
 import Link from 'next/link';
 import { device } from './_app';
 import Image from 'next/image';
-import exemple from '../public/exemple.jpg';
-import alumni from "../public/alumni.webp";
 
 export const Login = styled.section`
 display: flex;
@@ -22,11 +20,6 @@ section{
 }
 .right__section{
     
-    @media ${device.desktop} {
-        background-color: #fff;
-        width: 50%;
-    }
-
     
     input{
         display: flex;
@@ -63,7 +56,7 @@ function Connexion() {
           <title>Connexion | Annuaire Alumni</title>
         </Head>
         <Login>
-            <section className="left__section">
+            <section className="left__section" style={{ backgroundImage: `url('/public/img/diplomes.webp')` }}>
                 <div style={{
                     zIndex: -1,
                     position: 'fixed',
@@ -71,16 +64,14 @@ function Connexion() {
                     height: "100%",
 
                 }}>
-            <Image 
+            {/* <Image 
                     alt='Les diplômés'
-                    src="/diplomes.webp"                
+                    src="/public/img/diplomes.webp"                
                     fill
                     style={{
                         objectFit: 'cover',
-                        
-                        
                     }}
-                />
+                /> */}
             </div>
             <div>
                 <h2>Bonjour,<br />et bienvenue sur l'annuaire des alumnis </h2>

@@ -29,21 +29,21 @@ class MyDocument extends Document {
         />
         <link 
         rel='preaload'
-        href='/asset/Oree/Oree-Bold.ttf'
+        href='/public/fonts/Oree/Oree-Bold.ttf'
         as='font'
         type='font/ttf'
         crossOrigin=''
         />
          <link 
         rel='preaload'
-        href='/asset/Oree/Oree-Regular.ttf'
+        href='/public/fonts/Oree/Oree-Regular.ttf'
         as='font'
         type='font/ttf'
         crossOrigin=''
         />
          <link 
         rel='preaload'
-        href='/asset/Oree/Oree-Italic.ttf'
+        href='/public/fonts/Oree/Oree-Italic.ttf'
         as='font'
         type='font/ttf'
         crossOrigin=''
