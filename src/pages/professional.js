@@ -1,13 +1,10 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import { useEffect, useState } from "react";
+import Navbar from "/components/Navbar";
 import styled from "styled-components";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProfessionalStyle = styled.div`
 padding: 0 100px;
 `
-
 function Professional() {
     return(
         <>
