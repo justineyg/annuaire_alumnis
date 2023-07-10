@@ -261,3 +261,15 @@ button{
         }
     }
 }
+
+/*
+FORM
+*/
+input, select{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}

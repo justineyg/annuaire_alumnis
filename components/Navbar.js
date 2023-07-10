@@ -10,7 +10,7 @@ import {
  } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 export const Nav = styled.div`
-padding: 20px 0px;
+padding: 20px 20px;
 margin-bottom: 50px;
 display: flex;
 justify-content: space-between;

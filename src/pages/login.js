@@ -129,9 +129,20 @@ function Connexion() {
                 
             <section className="right__section">
                 <h2>Identifiez-vous</h2>
-                <form>
-                    <input type="email" name="email" id="email" placeholder="Email"></input>
-                    <input type="password" name="password" id="password" placeholder="Mot de passe"></input>
+                <form method='POST' action=''>
+                    <input 
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email" 
+                    />
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        pattern="[a-z0-9]{1,15}"
+                        placeholder="Mot de passe" 
+                    />
                     <button type="submit">Se connecter</button>
                 </form> 
             </section>
