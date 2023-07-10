@@ -1,7 +1,9 @@
+
+
 export default function alumniDetails(){
     return (
         <div>
-            Profil Alumni : 
+           <h1>{}</h1>
         </div>
     )
 }

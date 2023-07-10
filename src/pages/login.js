@@ -143,7 +143,7 @@ function Connexion() {
                         pattern="[a-z0-9]{1,15}"
                         placeholder="Mot de passe" 
                     />
-                    <button type="submit">Se connecter</button>
+                    <button type="submit"><Link href="/alumnis">Se connecter</Link></button>
                 </form> 
             </section>
         </Login>
