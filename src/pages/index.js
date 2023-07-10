@@ -18,7 +18,9 @@ height: 100vh;
 h1{
   margin-bottom: 50px;
 }
-
+a{
+  letter-spacing: .1rem;
+}
   .button__homepage{
     background-color: #21534f;
     

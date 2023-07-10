@@ -1,14 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import styled from "styled-components";
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {
-//   solid,
-//   regular,
-//   brands,
-//   icon
-//  } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  solid,
+  regular,
+  brands,
+  icon
+ } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 export const Nav = styled.div`
 padding: 20px 0px;
@@ -34,10 +33,10 @@ function Navbar() {
             </div>
             <div className="right__section">
     <ul>
-        {/* <li><Link href="/"><FontAwesomeIcon icon={solid('home')} size='1x' /> Home</Link></li>
+        <li><Link href="/"><FontAwesomeIcon icon={solid('home')} size='1x' /> Home</Link></li>
         <li><Link href="/profil"><FontAwesomeIcon icon={solid ('user')} size='1x' /> Profil</Link></li>
-        <li><Link href="/login"><FontAwesomeIcon icon={solid('right-to-bracket')} size='1x' /> Se connecter</Link></li>*/
-    }
+        <li><Link href="/login"><FontAwesomeIcon icon={solid('right-to-bracket')} size='1x' /> Se connecter</Link></li>
+    
     </ul>
     </div>
         </Nav>
