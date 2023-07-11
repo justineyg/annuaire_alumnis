@@ -19,7 +19,7 @@ section{
     padding: 0 100px;
 }
 .right__section{
-
+    text-align: center;
     input{
         display: flex;
         flex-direction: column;
@@ -65,7 +65,7 @@ section{
             height: 2px;
             width: 50px;
             left: 0;
-            top: 1.51em;
+            top: 1.55em;
             z-index: 1;
         }
         &:hover {
@@ -88,7 +88,10 @@ section{
     .left__section{
         background-color: rgba(33,83,79,0.8);
         ;
-        p{
+        span{
+            font-family: 'Oree';
+            font-weight: bold
+            font-size: 1.5rem;
             line-height: 1.8;
         }
 
@@ -121,14 +124,12 @@ function Connexion() {
                 />
             </div>
             <div>
-                <h2>Bonjour,<br />et bienvenue sur l'annuaire des alumnis </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+                <p><span>Bonjour,<br />et bienvenue sur l'annuaire des alumnis </span></p>
             </div>
             </section>
                 
             <section className="right__section">
-                <h2>Identifiez-vous</h2>
+                <h1>Identifiez-vous</h1>
                 <form method='POST' action=''>
                     <input 
                         type="email"

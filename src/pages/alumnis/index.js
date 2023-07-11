@@ -17,7 +17,7 @@ import UserCard from "../../../components/UserCard";
 const IndexStyle = styled.div`
 padding: 0 100px;
 .schoolYear{
-    margin-top: 60px;
+    margin: 60px 200px;
     .school{
         
         display: flex;

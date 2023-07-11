@@ -56,7 +56,7 @@ export default function Home() {
         <Link className = 'btn' href = "/professional" > Un professionnel</Link> 
         </p> 
         <p className = 'button__homepage'>
-        <Link className = 'btn' href = "/" > Un Alumni</Link> 
+        <Link className = 'btn' href = "/" > Un diplômé</Link> 
         </p> 
         <p className = 'button__homepage'>
         <Link className = 'btn' href = "/login" > Un étudiant</Link> 
